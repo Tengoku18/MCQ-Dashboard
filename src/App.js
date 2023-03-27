@@ -1,9 +1,11 @@
 import Index from "./components/dashboard";
 
 function App() {
-  return <div className="App">MCQ Dashboard Clone
- <Index/>
-  </div>;
+  return (
+    <div className="">
+      <Index />
+    </div>
+  );
 }
 
 export default App;
