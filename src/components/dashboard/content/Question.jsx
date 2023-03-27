@@ -59,11 +59,11 @@ const Question = () => {
       return (
         <div className="m-8">
           <div className="text-xl font-bold">Questions</div>
-          <div className="flex flex-row overflow-x-auto overflow-hidden">
+          <div className="flex flex-row overflow-x-auto overscroll-contsin">
             {Question.map((items) => {
               return (
                 <Card>
-                  <div className="grid bg-blue-600 h-32 w-32 my-2 mx-auto p-0 border rounded-full ">
+                  <div className="grid bg-primary-purple h-32 w-32 my-2 mx-auto p-0 border rounded-full ">
                     <div className="text-center m-auto text-lg font-extrabold text-white">{items.image}</div>
                   </div>
                   <div className="bg-slate-50 h-10 w-[100%] ">

@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className=" navbar grid grid-cols-3 bg-[#210454] h-20 text-white place-content-center justify-center gap-4">
+    <div className=" navbar grid grid-cols-3 bg-[#210454] h-20 w-screen text-white place-content-center justify-center gap-4">
       {/* logo */}
       <div className="m-4 flex  justify-item-start">
         <div>
