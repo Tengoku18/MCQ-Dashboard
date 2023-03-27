@@ -1,8 +1,8 @@
-import Navbar from "./components/dashboard/navbar/Navbar";
+import Index from "./components/dashboard";
 
 function App() {
   return <div className="App">MCQ Dashboard Clone
-  <Navbar/>
+ <Index/>
   </div>;
 }
 
