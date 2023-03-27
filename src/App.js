@@ -1,5 +1,5 @@
 function App() {
-  return <div className="App">MCQ Dashboard Clone</div>;
+  return <div className="bg-primary-purple">MCQ Dashboard Clone</div>;
 }
 
 export default App;
