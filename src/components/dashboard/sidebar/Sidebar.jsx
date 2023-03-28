@@ -45,7 +45,7 @@ const Menu = [
 
 const Sidebar = () => {
   return (
-    <div className="bg-primary-purple  h-full">
+    <div className="bg-primary-purple h-screen ">
       <div className="py-3">
         {Menu.map((item) => {
           return (
@@ -60,7 +60,7 @@ const Sidebar = () => {
         })}
       </div>
       <hr className="text-white mx-2" />
-      <div className="p-3 flex flex-col ">
+      <div className="p-3 flex flex-col w-full ">
         <p className="text-white w-full flex justify-between">
           {" "}
           Student ID: Z73IDR9T{" "}

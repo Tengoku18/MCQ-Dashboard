@@ -48,7 +48,7 @@ const Navbar = () => {
       </div>
       {/* account  */}
       <div className="grid justify-items-end ">
-        <span className="border-8 border-white rounded-full ">
+        <span className="border-3 border-white rounded-full ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
