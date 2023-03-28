@@ -1,12 +1,14 @@
 import React from "react";
+import Question from "./Question";
+import Recommend from "./Recommend";
 
 const Content = () => {
   return (
-    <div className="text-primary-purple">
-      <div className="h-screen w-fit bg-primary-white text-white">
-        Container 1
+    <div className="w-screen">
+      <div className="">
+        <Question />
       </div>
-      <div className="h-screen  bg-primary-white text-white">Container 2</div>
+      <div className="w-screen "><Recommend/></div>
     </div>
   );
 };
