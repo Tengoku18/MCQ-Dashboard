@@ -3,7 +3,7 @@ import React from "react";
 const MessageIcon = () => {
   return (
     
-      <div className=" fixed bg-indigo-900 border rounded-full text-white p-2  buttom-8 right-8">
+      <div className=" fixed bg-primary-purple border rounded-full text-white p-2  buttom-4 right-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
