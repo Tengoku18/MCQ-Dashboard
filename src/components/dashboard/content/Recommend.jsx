@@ -37,6 +37,7 @@ const Recommend = () => {
   return (
     <div>
       <div className="text-xl font-bold">Recommend</div>
+      <div className="flex items-center w-screen">
       <div className="grid grid-cols-3 justify-items-center">
         {List.map((items) => {
           return (
@@ -115,6 +116,8 @@ const Recommend = () => {
           );
         })}
       </div>
+      </div>
+      
     </div>
   );
 };

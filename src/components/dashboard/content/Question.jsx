@@ -59,7 +59,8 @@ const Question = () => {
       return (
         <div className="m-8">
           <div className="text-xl font-bold">Questions</div>
-          <div className="flex flex-row overflow-x-auto overscroll-contsin">
+          <div className='overflow-x-auto  overscroll-contain'>
+            <div className='flex items-center w-screen'>
             {Question.map((items) => {
               return (
                 <Card>
@@ -73,7 +74,9 @@ const Question = () => {
                 </Card>
               );
             })}
+            </div>
           </div>
+           
           <MessageIcon/>
         </div>
       );
